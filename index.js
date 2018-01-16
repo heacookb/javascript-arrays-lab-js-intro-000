@@ -1,7 +1,7 @@
 const app = "I don't do much."
 function destructivelyAppendKitten(name)
 {
-  kittens.unshift(name);
+  kittens.push(name);
 }
 function destructivelyPrependKitten(name)
 {
@@ -18,7 +18,7 @@ function destructivelyRemoveFirstKitten()
 function appendKitten(name)
 {
   var cats = kittens;
-  cats = [kittens, ...name];
+  cats = [...name, kittens];
   return cats;
 }
 function prependKitten(name)
