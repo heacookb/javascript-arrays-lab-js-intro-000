@@ -34,3 +34,10 @@ function removeLastKitten()
   return cats;
 
 }
+function removeFirstKitten()
+{
+  var cats = kittens;
+  cats = kittens.slice(1);
+  return cats;
+
+}
