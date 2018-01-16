@@ -31,7 +31,7 @@ function removeLastKitten()
 {
   var cats = kittens;
   var n = cats.length;
-  cats = kittens.slice(0, cats.);
+  cats = kittens.slice(0, cats.n-1);
   return cats;
 
 }
