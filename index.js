@@ -19,7 +19,7 @@ function appendKitten(name)
 {
   const cats = kittens;
   const morecats = [cats, ...name];
-  return cats;
+  return morecats;
 }
 function prependKitten(name)
 {
